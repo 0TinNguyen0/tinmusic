@@ -29,17 +29,16 @@ const app = {
   // config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY)) || {},
    songs: [
     {
-      name: "Một Chiếc Nhạc Lofi Chill Nhẹ Nhàng",
-      singer: "Chill",
-      path: "./music/alan.mp3",
-      image: "http://vn.blog.kkday.com/wp-content/uploads/chup-anh-dep-bang-dien-thoai-25.jpg"
+      name: "English Chill",
+      singer: "Chill Fun",
+      path: "./music/Music-Chill-English-1",
+      image: "https://i.pinimg.com/736x/6d/96/e0/6d96e0735f604f345e7b4a81b02c73b2.jpg"
     },
     {
-      name: "Tu Phir Se Aana",
-      singer: "Raftaar x Salim Merchant x Karma",
-      path: "https://www.nhaccuatui.com/bai-hat/u-em-xin-loi-hoang-yen-chibi-ft-b-ray-ft-khac-hung.960qfsb9WJFs.html",
-      image:
-        "https://1.bp.blogspot.com/-kX21dGUuTdM/X85ij1SBeEI/AAAAAAAAKK4/feboCtDKkls19cZw3glZWRdJ6J8alCm-gCNcBGAsYHQ/s16000/Tu%2BAana%2BPhir%2BSe%2BRap%2BSong%2BLyrics%2BBy%2BRaftaar.jpg"
+      name: "English Lofi",
+      singer: "Lofi Sleep",
+      path: "./music/Music-Chill-English-2",
+      image: "https://i.pinimg.com/originals/0c/51/39/0c51394f26adf0da3d8473e9ea983879.jpg"
     }
   ],
   setConfig: function (key, value) {
